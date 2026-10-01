@@ -1,4 +1,23 @@
 tier	arxiv_id	slug	section	title
+B0	2609.01437	harnessdev	ByteDance Seed & must-read 2026	HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?
+B0	2608.31111	aspire	ByteDance Seed & must-read 2026	Aspire (Self-Developing Agents): self-evolving from vague goals
+B0	2608.31100	s3gym	ByteDance Seed & must-read 2026	S3Gym (Self-Developing Agents): self-testing and self-judging to self-improvement
+B0	2609.11873	the-last-ai-built-by-humans	ByteDance Seed & must-read 2026	The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement
+B0	2604.18292	agent-world	ByteDance Seed & must-read 2026	Agent-World: self-evolving training arena
+B0	2501.11425	agent-r	ByteDance Seed & must-read 2026	Agent-R: Training Language Model Agents to Reflect via Iterative Self-Training
+B0	2509.02544	ui-tars-2	ByteDance Seed & must-read 2026	UI-TARS-2: Advancing GUI Agent with Multi-Turn Reinforcement Learning
+B0	2501.12326	ui-tars	ByteDance Seed & must-read 2026	UI-TARS: Pioneering Automated GUI Interaction with Native Agents
+B0	2507.23370	trae-agent	ByteDance Seed & must-read 2026	Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling
+B0	2409.19256	hybridflow-verl	ByteDance Seed & must-read 2026	HybridFlow: A Flexible and Efficient RLHF Framework (verl)
+B0	2503.14476	dapo	ByteDance Seed & must-read 2026	DAPO: An Open-Source LLM Reinforcement Learning System at Scale
+B0	2504.05118	vapo	ByteDance Seed & must-read 2026	VAPO: Efficient and Reliable RL for Advanced Reasoning Tasks
+B0	2504.11536	retool	ByteDance Seed & must-read 2026	ReTool: Reinforcement Learning for Strategic Tool Use in LLMs
+B0	2507.02259	memagent	ByteDance Seed & must-read 2026	MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent
+B0	2508.09736	m3-agent	ByteDance Seed & must-read 2026	M3-Agent: long-term memory multimodal agent
+B0	2507.23726	seed-prover	ByteDance Seed & must-read 2026	Seed-Prover: Deep and Broad Reasoning for Automated Theorem Proving
+B0	2506.03524	seed-coder	ByteDance Seed & must-read 2026	Seed-Coder: Let the Code Model Curate Data for Itself
+B0	2603.20633	seed1-8	ByteDance Seed & must-read 2026	Seed1.8 model card: Towards Generalized Real-World Agency
+B0	2607.12227	rethinking-harness-evolution-eval	ByteDance Seed & must-read 2026	Wang et al. 2026: harness evolution vs. matched-budget test-time scaling
 P0	2401.01335	self-play-fine-tuning-converts-weak-language-models-to-stron		Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models
 P0	2401.10020	self-rewarding-language-models		Self-Rewarding Language Models
 P0	2505.03335	absolute-zero-reinforced-self-play-reasoning-with-zero-data		Absolute Zero: Reinforced Self-play Reasoning with Zero Data
