@@ -345,4 +345,4 @@ A (example): a "tamper-evident evaluation" benchmark for self-improving harnesse
 - Shumailov et al. 2024, *AI models collapse when trained on recursively generated data* (Nature).
 - *Your Agent May Misevolve* (ICLR 2026) ([arXiv 2509.26354](https://arxiv.org/abs/2509.26354)).
 - Roesner & Kohno 2026, *Reflections on Trusting Trust, Revisited* ([arXiv 2609.17817](https://arxiv.org/abs/2609.17817)).
-- Paper cards: [ai-control](papers/ai-control.md), [sycophancy-to-subterfuge](papers/sycophancy-to-subterfuge.md).
+- Paper cards: [ai-control](papers/ai-control.md), [sycophancy-to-subterfuge](papers/sycophancy-to-subterfuge.md), [godel-machine](papers/godel-machine.md), [darwin-godel-machine](papers/darwin-godel-machine.md), [weak-to-strong](papers/weak-to-strong.md), [model-collapse](papers/model-collapse.md), [trusting-trust-revisited](papers/trusting-trust-revisited.md), [harnessdev](papers/harnessdev.md).
