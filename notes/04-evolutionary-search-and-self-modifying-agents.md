@@ -8,7 +8,7 @@
 > Primary anchor: Lilian Weng (Jul 2026), *Harness Engineering for Self-Improvement*, §"Evolutionary Search"
 > and §"Self-Improving Harness" (`sources/weng-2026-harness-engineering-for-self-improvement.md`).
 > Paper cards: `notes/papers/*.md`. AlphaEvolve numbers below were checked against the white-paper PDF
-> (`papers/alphaevolve.pdf`, extracted to `papers/alphaevolve.txt`). Items marked **[unverified]** come from
+> (`papers/pdf/P0/2506.13131_alphaevolve-a-coding-agent-for-scientific-and-algorithmic-di.pdf`, extracted to `papers/txt/P0/2506.13131_alphaevolve-a-coding-agent-for-scientific-and-algorithmic-di.txt`). Items marked **[unverified]** come from
 > memory or secondary sources only.
 
 ---
@@ -610,7 +610,7 @@ each change (AHE's falsifiable edit manifests).
 ## Sources consulted (2026-10-01)
 
 * Weng 2026 (local `sources/`), awesome-rsi (local `sources/`).
-* AlphaEvolve white paper PDF: `storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf` (local copy `papers/alphaevolve.pdf`).
+* AlphaEvolve white paper PDF: `storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf` (local copy `papers/pdf/P0/2506.13131_alphaevolve-a-coding-agent-for-scientific-and-algorithmic-di.pdf`).
 * Web search snippets for: DGM (arxiv 2505.22954), HGM (arxiv 2510.21614; ICLR 2026 oral page), Hyperagents
   (arxiv 2603.19461), SICA (arxiv 2504.15228), ShinkaEvolve (arxiv 2509.19349), ThetaEvolve (arxiv 2511.23473),
   TTT-Discover (arxiv 2601.16175), UG-TTT (arxiv 2605.11328), FunSearch (Nature; Wikipedia), Gödel Machine

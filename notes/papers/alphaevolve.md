@@ -3,7 +3,7 @@
 - **Authors:** Alexander Novikov, Ngân Vũ, Marvin Eisenberger, Emilien Dupont, Po-Sen Huang, Adam Zsolt Wagner, Sergey Shirobokov, Borislav Kozlovskii, Francisco J. R. Ruiz, Abbas Mehrabian, M. Pawan Kumar, Abigail See, Swarat Chaudhuri, George Holland, Alex Davies, Sebastian Nowozin, Pushmeet Kohli, Matej Balog (Google DeepMind) — list from memory **[verify]**
 - **Year:** 2025 (white paper May 2025; arXiv 2506.13131)
 - **Venue:** DeepMind white paper / arXiv
-- **Link:** https://arxiv.org/abs/2506.13131 · PDF (local) `papers/alphaevolve.pdf`
+- **Link:** https://arxiv.org/abs/2506.13131 · PDF (local) `papers/pdf/P0/2506.13131_alphaevolve-a-coding-agent-for-scientific-and-algorithmic-di.pdf`
 
 ## TL;DR
 An asynchronous evolutionary loop in which Gemini models propose diffs to whole codebases (regions marked with EVOLVE-BLOCK), automated evaluators score them, and a MAP-Elites/island database keeps good and diverse programs — yielding new math results and deployed Google infrastructure improvements.
