@@ -5,6 +5,30 @@
 
 ---
 
+## Session 2 — 2026-10-01 · Formalizing harness optimization vs. RSI
+
+**Preference noted:** you're an AI PhD, so we work at research level from now on (see `CLAUDE.md`).
+
+**Formalism**
+- $J(\theta,h)=\mathbb E_{x\sim\mathcal D}[u(\tau)],\ \tau\sim\pi_{\theta,h}$. Harness search is black-box program search, with the LLM as mutation operator $O$.
+- Harness optimization: $h_{t+1}=O(h_t,\mathcal H_t)$, where $O$ is fixed and hand-designed.
+- Self-improvement: $h_{t+1}=O_{\theta,h_t}(h_t,\mathcal H_t)$, where the proposer runs as the agent (Self-Harness).
+- Recursive: $(h_{t+1},O_{t+1})=O_t(h_t,O_t,\mathcal H_t)$. STOP is the cleanest case.
+- **DGM collapses $h$ and $O$ into one codebase.** Coding gains are then self-modification gains, by construction.
+- Full RSI also updates $\theta$: $(\theta_{t+1},h_{t+1})=\mathcal A_{\theta_t,h_t}(\cdot)$ (SIA, Aspire).
+
+**💡 Sparks: four tensions**
+1. **Fixed-θ ceiling.** Recursion on $O$ improves the *rate* of convergence, not the ceiling $\sup_h J(\theta,h;C)$. Many reported gains may come from compute $C$ rather than $h$ (Wang et al. 2026, matched-compute test-time scaling).
+2. **Winner's curse.** Taking the argmax over a noisy $\hat J$ is regressional Goodhart. This explains why HarnessDev's held-out gains evaporate. Defense: held-in + held-out no-regression gates.
+3. **Metaproductivity ≠ performance.** Select parents by descendants' outcomes (HGM's clade metaproductivity), not by their own score.
+4. **Proposer and executor capability decouple** (Lin et al. 2026). This suggests a cheap proposer plus per-executor harnesses.
+
+**Open discussion questions (your answers go here)**
+- Q1: Can harness-only self-improvement be unbounded? What must be true of $\mathcal H$ or $C$?
+- Q2: When does DGM's assumption "coding score ≈ self-improvement ability" fail, and what happens to the archive?
+
+---
+
 ## Session 1 — 2026-10-01 · What is a harness?
 
 **Your starting model:** agent = harness + LLM ✅ (the standard modern definition)
