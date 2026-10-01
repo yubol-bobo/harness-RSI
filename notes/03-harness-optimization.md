@@ -528,4 +528,6 @@ A: Production traffic is a huge source of traces; a harness-evolution loop with 
 ---
 
 ## 13. Paper cards index (`notes/papers/`)
-`stop.md`, `promptbreeder.md`, `opro.md`, `dspy-mipro.md`, `textgrad.md`, `gepa.md`, `reflexion.md`, `expel.md`, `voyager.md`, `agent-workflow-memory.md`, `dynamic-cheatsheet.md`, `ace.md`, `mce.md`, `adas.md`, `aflow.md`, `sica.md`, `live-swe-agent.md`, `meta-harness.md`, `ahe.md`, `self-harness.md`, `harness-updating-vs-benefit.md`, `demoevolve.md`, `continual-harness.md`, `sia.md`, `rethinking-harness-evolution-eval.md`.
+Written for this note: `stop.md`, `promptbreeder.md`, `opro.md`, `dspy-mipro.md`, `textgrad.md`, `gepa.md`, `reflexion.md`, `expel.md`, `voyager.md`, `agent-workflow-memory.md`, `dynamic-cheatsheet.md`, `ace.md`, `mce.md`, `adas.md`, `aflow.md`, `live-swe-agent.md`, `meta-harness.md`, `ahe.md`, `self-harness.md`, `harness-updating-vs-benefit.md`, `demoevolve.md`, `continual-harness.md`, `sia.md`, `rethinking-harness-evolution-eval.md`.
+
+Related cards from companion notes: `sica.md`, `darwin-godel-machine.md`, `hyperagents.md`, `alphaevolve.md`, `shinkaevolve.md`, `thetaevolve.md`, `godel-machine.md`.
