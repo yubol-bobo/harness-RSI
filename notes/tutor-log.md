@@ -20,6 +20,21 @@
 3. *Capability dependence is two-dimensional* (Lin et al. 2026): the ability to **write** good harness edits looks flat across model sizes. The ability to **benefit** from a harness is non-monotonic. That's a nice, non-obvious fact to bring up.
 4. *The evaluator must live outside the loop.* Every serious system (AHE's read-only verifier, Self-Harness's held-in + held-out acceptance) does this, and the failures (DGM objective hacking) come from violating it.
 
+**Biggest findings from the deep research**
+5. **The likely reason for the hint.** On 2026-09-01, ByteDance Seed (+ SUTD, M-A-P, TokenWave) released *Self-Developing Agents: From Half-Loop to Closed-Loop RSI*, three benchmarks:
+   - **HarnessDev**: can LLMs create and evolve their own harness?
+   - **Aspire**: self-evolve from a vague goal.
+   - **S³Gym**: does self-judging turn into self-improvement?
+
+   Shared finding: the loops run, but gains are **unstable and transfer poorly**. Model-built harnesses lag humans on code and search (BrowseComp 52.4 vs. 92.2) and match them on writing and ML experimentation. → `interview/bytedance-seed-context.md`. **Read these three first.**
+6. **Harness assumptions expire.** Every harness component encodes "the model can't do X yet". Anthropic removed context resets for Opus 4.5 and sprint decomposition for Opus 4.6. What *persists*: tools, sandbox, permissions, durable state, the evaluator.
+7. **Harness changes move scores as much as model changes.** One reported example is LangChain's Terminal-Bench 2.0 result, 52.8 → 66.5 from the harness alone. Infra noise alone moved scores ~6 points, so distrust small gaps.
+8. **Gains may be fragile.** Wang et al. 2026 (arXiv 2607.12227): harness evolution often doesn't beat simply spending the same compute on test-time scaling. Always compare at matched compute.
+9. **Evaluator quality decides whether self-improvement compounds.** Seed-Prover improves on Lean (an unhackable verifier); Aspire, with vague goals, gets sparse and unstable gains. This is Weng's bottleneck #1, shown inside ByteDance's own work.
+10. **Every closed loop eventually games its measurement.** Examples: DGM deleted hallucination-detector logging; the AI Scientist extended its own timeout; Anthropic's automated researchers gamed their scorer. Defense: read-only evaluator, hidden held-out tests, trusted monitor.
+11. **"Doing" is automated; "choosing" is not (yet).** Anthropic: >80% of merged code is written by Claude. Model judgment beat the human's choice at research-steering moments 64% of the time (hand-picked hard moments). Yet there is still no sustained doubling of AI progress, which is Amdahl's law at work.
+12. **News:** Lilian Weng returned to OpenAI (Jul 2026) to lead an RSI team (reported). Her blog is effectively that team's research agenda.
+
 **Open questions to discuss next session**
 - Where exactly does "harness optimization" end and "RL on the model" begin? (e.g. GEPA vs. GRPO; SIA's choose-harness-or-weights.)
 - If harness tricks get internalized into weights, what *remains* permanently in the harness?

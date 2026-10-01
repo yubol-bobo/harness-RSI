@@ -22,3 +22,7 @@
 - Short-proxy overfitting: does a 5-minute win hold at full scale? (Partial evidence says some do.)
 - Noise: single-run comparisons can accept lucky seeds. Repeated runs or significance thresholds would help.
 - The improver does not improve itself, so this is not recursive by awesome-rsi's definition.
+
+## Harness-design view (added by the harness-foundations pass; see notes/01 §15)
+- Three files: `program.md` (human-written goals, rules, off-limits areas, failure handling: the "harness prompt"), `train.py` (~630-line GPT training script, the **only** file the agent edits), `prepare.py` (fixed data and tokenizer pipeline, FineWeb-Edu + BPE). Per secondary write-ups.
+- Harness lessons: a **small explicit editable surface** (like AlphaEvolve's EVOLVE-BLOCKs and AHE's read-only verifier), a **fixed external evaluator plus a fixed compute budget**, **git as memory and rollback** (as in Anthropic's long-running-agent harness), and the human moving "up the stack" to edit `program.md` (Weng §7). Weng cites it as the clean example of Pattern 1 (workflow automation).

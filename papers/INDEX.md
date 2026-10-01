@@ -1,53 +1,76 @@
 # Paper index
 
-Auto-generated from `papers/arxiv_ids.tsv` (all arXiv links in `sources/`). Download with `scripts/fetch_papers.sh [P0|P1|P2|all]`.
-Per-paper study cards live in `notes/papers/`. ⭐ = has a card.
+Generated from `papers/arxiv_ids.tsv`, which lists every arXiv link in `sources/` plus the ByteDance must-reads.
+Download with `scripts/fetch_papers.sh [B0|P0|P1|P2|all]` (the default is B0 + P0).
+⭐ marks papers with a study card in [`notes/papers/`](../notes/papers/README.md).
 
-## P0 — cited in Weng (2026) "Harness Engineering for Self-Improvement" (read these first)
+## B0 — ByteDance Seed work & must-read 2026 papers (read first for the interview)
 
-- [Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335) `2401.01335`
-- [Self-Rewarding Language Models](https://arxiv.org/abs/2401.10020) `2401.10020`
-- [Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335) `2505.03335`
+- [HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?](https://arxiv.org/abs/2609.01437) `2609.01437` ⭐ [card](../notes/papers/harnessdev.md)
+- [Aspire (Self-Developing Agents): self-evolving from vague goals](https://arxiv.org/abs/2608.31111) `2608.31111` ⭐ [card](../notes/papers/aspire-s3gym.md)
+- [S3Gym (Self-Developing Agents): self-testing and self-judging to self-improvement](https://arxiv.org/abs/2608.31100) `2608.31100` ⭐ [card](../notes/papers/aspire-s3gym.md)
+- [The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement](https://arxiv.org/abs/2609.11873) `2609.11873`
+- [Agent-World: self-evolving training arena](https://arxiv.org/abs/2604.18292) `2604.18292` ⭐ [card](../notes/papers/agent-world.md)
+- [Agent-R: Training Language Model Agents to Reflect via Iterative Self-Training](https://arxiv.org/abs/2501.11425) `2501.11425`
+- [UI-TARS-2: Advancing GUI Agent with Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2509.02544) `2509.02544` ⭐ [card](../notes/papers/ui-tars-2.md)
+- [UI-TARS: Pioneering Automated GUI Interaction with Native Agents](https://arxiv.org/abs/2501.12326) `2501.12326` ⭐ [card](../notes/papers/ui-tars-2.md)
+- [Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling](https://arxiv.org/abs/2507.23370) `2507.23370` ⭐ [card](../notes/papers/trae-agent.md)
+- [HybridFlow: A Flexible and Efficient RLHF Framework (verl)](https://arxiv.org/abs/2409.19256) `2409.19256` ⭐ [card](../notes/papers/verl-hybridflow.md)
+- [DAPO: An Open-Source LLM Reinforcement Learning System at Scale](https://arxiv.org/abs/2503.14476) `2503.14476` ⭐ [card](../notes/papers/dapo.md)
+- [VAPO: Efficient and Reliable RL for Advanced Reasoning Tasks](https://arxiv.org/abs/2504.05118) `2504.05118`
+- [ReTool: Reinforcement Learning for Strategic Tool Use in LLMs](https://arxiv.org/abs/2504.11536) `2504.11536` ⭐ [card](../notes/papers/retool.md)
+- [MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent](https://arxiv.org/abs/2507.02259) `2507.02259` ⭐ [card](../notes/papers/memagent.md)
+- [M3-Agent: long-term memory multimodal agent](https://arxiv.org/abs/2508.09736) `2508.09736`
+- [Seed-Prover: Deep and Broad Reasoning for Automated Theorem Proving](https://arxiv.org/abs/2507.23726) `2507.23726`
+- [Seed-Coder: Let the Code Model Curate Data for Itself](https://arxiv.org/abs/2506.03524) `2506.03524`
+- [Seed1.8 model card: Towards Generalized Real-World Agency](https://arxiv.org/abs/2603.20633) `2603.20633`
+- [Wang et al. 2026: harness evolution vs. matched-budget test-time scaling](https://arxiv.org/abs/2607.12227) `2607.12227` ⭐ [card](../notes/papers/rethinking-harness-evolution-eval.md)
+
+## P0 — cited in Weng (2026) "Harness Engineering for Self-Improvement"
+
+- [Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335) `2401.01335` ⭐ [card](../notes/papers/spin.md)
+- [Self-Rewarding Language Models](https://arxiv.org/abs/2401.10020) `2401.10020` ⭐ [card](../notes/papers/self-rewarding.md)
+- [Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335) `2505.03335` ⭐ [card](../notes/papers/absolute-zero.md)
 
 - [CORE-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark](https://arxiv.org/abs/2409.11363) `2409.11363`
 - [ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery](https://arxiv.org/abs/2410.05080) `2410.05080`
-- [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://arxiv.org/abs/2410.07095) `2410.07095`
-- [RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts](https://arxiv.org/abs/2411.15114) `2411.15114`
+- [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://arxiv.org/abs/2410.07095) `2410.07095` ⭐ [card](../notes/papers/mle-bench.md)
+- [RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts](https://arxiv.org/abs/2411.15114) `2411.15114` ⭐ [card](../notes/papers/re-bench.md)
 - [KernelBench: Can LLMs Write Efficient GPU Kernels?](https://arxiv.org/abs/2502.10517) `2502.10517`
-- [PaperBench: Evaluating AI's Ability to Replicate AI Research](https://arxiv.org/abs/2504.01848) `2504.01848`
+- [PaperBench: Evaluating AI's Ability to Replicate AI Research](https://arxiv.org/abs/2504.01848) `2504.01848` ⭐ [card](../notes/papers/paperbench.md)
 
-- [Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](https://arxiv.org/abs/2510.04618) `2510.04618`
-- [Meta Context Engineering via Agentic Skill Evolution](https://arxiv.org/abs/2601.21557) `2601.21557`
-- [Meta-Harness: End-to-End Optimization of Model Harnesses](https://arxiv.org/abs/2603.28052) `2603.28052`
+- [Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](https://arxiv.org/abs/2510.04618) `2510.04618` ⭐ [card](../notes/papers/ace.md)
+- [Meta Context Engineering via Agentic Skill Evolution](https://arxiv.org/abs/2601.21557) `2601.21557` ⭐ [card](../notes/papers/mce.md)
+- [Meta-Harness: End-to-End Optimization of Model Harnesses](https://arxiv.org/abs/2603.28052) `2603.28052` ⭐ [card](../notes/papers/meta-harness.md)
 
-- [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/abs/2309.16797) `2309.16797`
-- [Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/abs/2505.22954) `2505.22954`
-- [AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131) `2506.13131`
-- [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457) `2507.19457`
-- [ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution](https://arxiv.org/abs/2509.19349) `2509.19349`
-- [ThetaEvolve: Test-time Learning on Open Problems](https://arxiv.org/abs/2511.23473) `2511.23473`
-- [Hyperagents](https://arxiv.org/abs/2603.19461) `2603.19461`
-- [DemoEvolve: Overcoming Sparse Feedback in Agentic Harness Evolution with Demonstrations](https://arxiv.org/abs/2605.24539) `2605.24539`
+- [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/abs/2309.16797) `2309.16797` ⭐ [card](../notes/papers/promptbreeder.md)
+- [Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/abs/2505.22954) `2505.22954` ⭐ [card](../notes/papers/darwin-godel-machine.md)
+- [AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/abs/2506.13131) `2506.13131` ⭐ [card](../notes/papers/alphaevolve.md)
+- [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457) `2507.19457` ⭐ [card](../notes/papers/gepa.md)
+- [ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution](https://arxiv.org/abs/2509.19349) `2509.19349` ⭐ [card](../notes/papers/shinkaevolve.md)
+- [ThetaEvolve: Test-time Learning on Open Problems](https://arxiv.org/abs/2511.23473) `2511.23473` ⭐ [card](../notes/papers/thetaevolve.md)
+- [Hyperagents](https://arxiv.org/abs/2603.19461) `2603.19461` ⭐ [card](../notes/papers/hyperagents.md)
+- [DemoEvolve: Overcoming Sparse Feedback in Agentic Harness Evolution with Demonstrations](https://arxiv.org/abs/2605.24539) `2605.24539` ⭐ [card](../notes/papers/demoevolve.md)
 
-- [Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072) `2511.16072`
-- [Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts](https://arxiv.org/abs/2601.03315) `2601.03315`
+- [Early science acceleration experiments with GPT-5](https://arxiv.org/abs/2511.16072) `2511.16072` ⭐ [card](../notes/papers/bubeck-gpt5-science.md)
+- [Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts](https://arxiv.org/abs/2601.03315) `2601.03315` ⭐ [card](../notes/papers/trehan-chopra-llms-arent-scientists.md)
 
-- [Continual Harness: Online Adaptation for Self-Improving Foundation Agents](https://arxiv.org/abs/2605.09998) `2605.09998`
-- [SIA: Self Improving AI with Harness & Weight Updates](https://arxiv.org/abs/2605.27276) `2605.27276`
+- [Continual Harness: Online Adaptation for Self-Improving Foundation Agents](https://arxiv.org/abs/2605.09998) `2605.09998` ⭐ [card](../notes/papers/continual-harness.md)
+- [SIA: Self Improving AI with Harness & Weight Updates](https://arxiv.org/abs/2605.27276) `2605.27276` ⭐ [card](../notes/papers/sia.md)
 
-- [Learning to Discover at Test Time](https://arxiv.org/abs/2601.16175) `2601.16175`
-- [Epistemic Uncertainty for Test-Time Discovery](https://arxiv.org/abs/2605.11328) `2605.11328`
+- [Learning to Discover at Test Time](https://arxiv.org/abs/2601.16175) `2601.16175` ⭐ [card](../notes/papers/ttt-discover.md)
+- [Epistemic Uncertainty for Test-Time Discovery](https://arxiv.org/abs/2605.11328) `2605.11328` ⭐ [card](../notes/papers/ug-ttt-epistemic-uncertainty.md)
 
-- [Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation](https://arxiv.org/abs/2310.02304) `2310.02304`
-- [Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses](https://arxiv.org/abs/2604.25850) `2604.25850`
-- [Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents](https://arxiv.org/abs/2605.30621) `2605.30621`
-- [Self-Harness: Harnesses That Improve Themselves](https://arxiv.org/abs/2606.09498) `2606.09498`
+- [Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation](https://arxiv.org/abs/2310.02304) `2310.02304` ⭐ [card](../notes/papers/stop.md)
+- [Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses](https://arxiv.org/abs/2604.25850) `2604.25850` ⭐ [card](../notes/papers/ahe.md)
+- [Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents](https://arxiv.org/abs/2605.30621) `2605.30621` ⭐ [card](../notes/papers/harness-updating-vs-benefit.md)
+- [Self-Harness: Harnesses That Improve Themselves](https://arxiv.org/abs/2606.09498) `2606.09498` ⭐ [card](../notes/papers/self-harness.md)
 
 - [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651) `2303.17651`
-- [Automated Design of Agentic Systems](https://arxiv.org/abs/2408.08435) `2408.08435`
-- [AFlow: Automating Agentic Workflow Generation](https://arxiv.org/abs/2410.10762) `2410.10762`
-- [ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence](https://arxiv.org/abs/2605.26340) `2605.26340`
-- [Autodata: An agentic data scientist to create high quality synthetic data](https://arxiv.org/abs/2606.25996) `2606.25996`
+- [Automated Design of Agentic Systems](https://arxiv.org/abs/2408.08435) `2408.08435` ⭐ [card](../notes/papers/adas.md)
+- [AFlow: Automating Agentic Workflow Generation](https://arxiv.org/abs/2410.10762) `2410.10762` ⭐ [card](../notes/papers/aflow.md)
+- [ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence](https://arxiv.org/abs/2605.26340) `2605.26340` ⭐ [card](../notes/papers/scientistone.md)
+- [Autodata: An agentic data scientist to create high quality synthetic data](https://arxiv.org/abs/2606.25996) `2606.25996` ⭐ [card](../notes/papers/autodata.md)
 
 ## P1 — from awesome-rsi (lobehub)
 
@@ -59,7 +82,7 @@ Per-paper study cards live in `notes/papers/`. ⭐ = has a card.
 ### Agent Capability Proxies
 
 - [TheAgentCompany](https://arxiv.org/abs/2412.14161) `2412.14161`
-- [METR Task-Completion Time Horizon](https://arxiv.org/abs/2503.14499) `2503.14499`
+- [METR Task-Completion Time Horizon](https://arxiv.org/abs/2503.14499) `2503.14499` ⭐ [card](../notes/papers/metr-time-horizons.md)
 - [SWE-Bench Pro](https://arxiv.org/abs/2509.16941) `2509.16941`
 - [MCPMark](https://arxiv.org/abs/2509.24002) `2509.24002`
 - [ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence](https://arxiv.org/abs/2603.24621) `2603.24621`
@@ -68,7 +91,7 @@ Per-paper study cards live in `notes/papers/`. ⭐ = has a card.
 
 ### Automated AI R&D
 
-- [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292) `2408.06292`
+- [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292) `2408.06292` ⭐ [card](../notes/papers/ai-gas-and-ai-scientist.md)
 - [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525) `2601.14525`
 - [FT-Dojo: Towards Autonomous LLM Fine-Tuning with Language Agents](https://arxiv.org/abs/2603.01712) `2603.01712`
 - [MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery](https://arxiv.org/abs/2606.06473) `2606.06473`
@@ -84,9 +107,9 @@ Per-paper study cards live in `notes/papers/`. ⭐ = has a card.
 
 ### Context & Memory Evolution
 
-- [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) `2303.11366`
+- [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) `2303.11366` ⭐ [card](../notes/papers/reflexion.md)
 - [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://arxiv.org/abs/2305.10250) `2305.10250`
-- [ExpeL: LLM Agents Are Experiential Learners](https://arxiv.org/abs/2308.10144) `2308.10144`
+- [ExpeL: LLM Agents Are Experiential Learners](https://arxiv.org/abs/2308.10144) `2308.10144` ⭐ [card](../notes/papers/expel.md)
 - [A-MEM: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110) `2502.12110`
 - [EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/abs/2510.16079) `2510.16079`
 - [Learning to Continually Learn via Meta-learning Agentic Memory Designs](https://arxiv.org/abs/2602.07755) `2602.07755`
@@ -94,7 +117,7 @@ Per-paper study cards live in `notes/papers/`. ⭐ = has a card.
 
 ### Direct RSI & Self-Improvement Evaluations
 
-- [PostTrainBench: Can LLM Agents Automate LLM Post-Training?](https://arxiv.org/abs/2603.08640) `2603.08640`
+- [PostTrainBench: Can LLM Agents Automate LLM Post-Training?](https://arxiv.org/abs/2603.08640) `2603.08640` ⭐ [card](../notes/papers/posttrainbench.md)
 - [RSIBench-Data](https://arxiv.org/abs/2607.25886) `2607.25886`
 - [LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks](https://arxiv.org/abs/2608.23200) `2608.23200`
 
@@ -109,10 +132,10 @@ Per-paper study cards live in `notes/papers/`. ⭐ = has a card.
 ### Evolutionary & Open-Ended RSI
 
 - [POWERPLAY: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem](https://arxiv.org/abs/1112.5309) `1112.5309`
-- [Illuminating Search Spaces by Mapping Elites](https://arxiv.org/abs/1504.04909) `1504.04909`
+- [Illuminating Search Spaces by Mapping Elites](https://arxiv.org/abs/1504.04909) `1504.04909` ⭐ [card](../notes/papers/map-elites-novelty-search.md)
 - [Learning to Learn by Gradient Descent by Gradient Descent](https://arxiv.org/abs/1606.04474) `1606.04474`
-- [Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions](https://arxiv.org/abs/1901.01753) `1901.01753`
-- [AI-GAs: AI-Generating Algorithms, an Alternate Paradigm for Producing General Artificial Intelligence](https://arxiv.org/abs/1905.10985) `1905.10985`
+- [Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions](https://arxiv.org/abs/1901.01753) `1901.01753` ⭐ [card](../notes/papers/poet.md)
+- [AI-GAs: AI-Generating Algorithms, an Alternate Paradigm for Producing General Artificial Intelligence](https://arxiv.org/abs/1905.10985) `1905.10985` ⭐ [card](../notes/papers/ai-gas-and-ai-scientist.md)
 - [AutoML-Zero: Evolving Machine Learning Algorithms From Scratch](https://arxiv.org/abs/2003.03384) `2003.03384`
 - [PACEvolve: Enabling Long-Horizon Progress-Aware Consistent Evolution](https://arxiv.org/abs/2601.10657) `2601.10657`
 
@@ -162,10 +185,10 @@ Per-paper study cards live in `notes/papers/`. ⭐ = has a card.
 
 ### Prompt & Program Optimization
 
-- [Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409) `2309.03409`
-- [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines](https://arxiv.org/abs/2310.03714) `2310.03714`
+- [Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409) `2309.03409` ⭐ [card](../notes/papers/opro.md)
+- [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines](https://arxiv.org/abs/2310.03714) `2310.03714` ⭐ [card](../notes/papers/dspy-mipro.md)
 - [Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models](https://arxiv.org/abs/2310.04406) `2310.04406`
-- [TextGrad: Automatic "Differentiation" via Text](https://arxiv.org/abs/2406.07496) `2406.07496`
+- [TextGrad: Automatic "Differentiation" via Text](https://arxiv.org/abs/2406.07496) `2406.07496` ⭐ [card](../notes/papers/textgrad.md)
 
 ### Safety, Alignment & Theory
 
@@ -174,14 +197,14 @@ Per-paper study cards live in `notes/papers/`. ⭐ = has a card.
 - [AGI Agent Safety by Iteratively Improving the Utility Function](https://arxiv.org/abs/2007.05411) `2007.05411`
 - [Performance of Bounded-Rational Agents With the Ability to Self-Modify](https://arxiv.org/abs/2011.06275) `2011.06275`
 - [Evaluating Goal Drift in Language Model Agents](https://arxiv.org/abs/2505.02709) `2505.02709`
-- [Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents](https://arxiv.org/abs/2509.26354) `2509.26354`
+- [Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents](https://arxiv.org/abs/2509.26354) `2509.26354` ⭐ [card](../notes/papers/trusting-trust-revisited.md)
 - [Escaping Model Collapse via Synthetic Data Verification: Near-term Improvements and Long-term Convergence](https://arxiv.org/abs/2510.16657) `2510.16657`
 - [TamperBench: Systematically Stress-Testing LLM Safety Under Fine-Tuning and Tampering](https://arxiv.org/abs/2602.06911) `2602.06911`
 - [SAHOO: Safeguarded Alignment for High-Order Optimization Objectives in Recursive Self-Improvement](https://arxiv.org/abs/2603.06333) `2603.06333`
 
 ### Self-Evolving Agent Frameworks
 
-- [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) `2305.16291`
+- [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) `2305.16291` ⭐ [card](../notes/papers/voyager.md)
 - [Agent-Pro: Learning to Evolve via Policy-Level Reflection and Optimization](https://arxiv.org/abs/2402.17574) `2402.17574`
 - [Self-evolving Agents with Reflective and Memory-Augmented Abilities](https://arxiv.org/abs/2409.00872) `2409.00872`
 - [Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement](https://arxiv.org/abs/2410.04444) `2410.04444`
@@ -194,15 +217,15 @@ Per-paper study cards live in `notes/papers/`. ⭐ = has a card.
 
 ### Self-Modifying Coding Agents
 
-- [A Self-Improving Coding Agent](https://arxiv.org/abs/2504.15228) `2504.15228`
+- [A Self-Improving Coding Agent](https://arxiv.org/abs/2504.15228) `2504.15228` ⭐ [card](../notes/papers/sica.md)
 
 ### Self-Play & Iterative Fine-tuning
 
 - [SELF: Self-Evolution with Language Feedback](https://arxiv.org/abs/2310.00533) `2310.00533`
 - [Self-Play Preference Optimization for Language Model Alignment](https://arxiv.org/abs/2405.00675) `2405.00675`
-- [Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge](https://arxiv.org/abs/2407.19594) `2407.19594`
-- [Self-Improvement in Language Models: The Sharpening Mechanism](https://arxiv.org/abs/2412.01951) `2412.01951`
-- [Self-Adapting Language Models](https://arxiv.org/abs/2506.10943) `2506.10943`
+- [Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge](https://arxiv.org/abs/2407.19594) `2407.19594` ⭐ [card](../notes/papers/meta-rewarding.md)
+- [Self-Improvement in Language Models: The Sharpening Mechanism](https://arxiv.org/abs/2412.01951) `2412.01951` ⭐ [card](../notes/papers/sharpening.md)
+- [Self-Adapting Language Models](https://arxiv.org/abs/2506.10943) `2506.10943` ⭐ [card](../notes/papers/seal.md)
 - [Learning to Self-Evolve](https://arxiv.org/abs/2603.18620) `2603.18620`
 - [TEMPO: Scaling Test-time Training for Large Reasoning Models](https://arxiv.org/abs/2604.19295) `2604.19295`
 - [Teaching LLMs to Self-Evolve: Cultivating Core Meta-Skills with Reinforcement Learning](https://arxiv.org/abs/2607.21971) `2607.21971`
@@ -210,13 +233,13 @@ Per-paper study cards live in `notes/papers/`. ⭐ = has a card.
 
 ### Self-Taught Reasoning
 
-- [STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/abs/2203.14465) `2203.14465`
-- [Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking](https://arxiv.org/abs/2403.09629) `2403.09629`
+- [STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/abs/2203.14465) `2203.14465` ⭐ [card](../notes/papers/star.md)
+- [Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking](https://arxiv.org/abs/2403.09629) `2403.09629` ⭐ [card](../notes/papers/quiet-star.md)
 - [rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519) `2501.04519`
 
 ### Self-Training & Self-Reward
 
-- [RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback](https://arxiv.org/abs/2309.00267) `2309.00267`
+- [RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback](https://arxiv.org/abs/2309.00267) `2309.00267` ⭐ [card](../notes/papers/constitutional-ai-rlaif.md)
 - [EvoLM: Self-Evolving Language Models through Co-Evolved Discriminative Rubrics](https://arxiv.org/abs/2605.03871) `2605.03871`
 
 ### Self-Verification & Self-Correction — Enabling Foundations
@@ -233,7 +256,7 @@ Per-paper study cards live in `notes/papers/`. ⭐ = has a card.
 - [Risks from Learned Optimization in Advanced Machine Learning Systems](https://arxiv.org/abs/1906.01820) `1906.01820`
 - [Reward Tampering Problems and Solutions in Reinforcement Learning: A Causal Influence Diagram Perspective](https://arxiv.org/abs/1908.04734) `1908.04734`
 - [Optimal Policies Tend to Seek Power](https://arxiv.org/abs/1912.01683) `1912.01683`
-- [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) `2212.08073`
+- [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) `2212.08073` ⭐ [card](../notes/papers/constitutional-ai-rlaif.md)
 - [Model Evaluation for Extreme Risks](https://arxiv.org/abs/2305.15324) `2305.15324`
 - [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/abs/2401.05566) `2401.05566`
 - [AI Sandbagging: Language Models can Strategically Underperform on Evaluations](https://arxiv.org/abs/2406.07358) `2406.07358`
@@ -241,9 +264,9 @@ Per-paper study cards live in `notes/papers/`. ⭐ = has a card.
 ### Synthetic Data & Self-Distillation
 
 - [Large Language Models Can Self-Improve](https://arxiv.org/abs/2210.11610) `2210.11610`
-- [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560) `2212.10560`
+- [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560) `2212.10560` ⭐ [card](../notes/papers/self-instruct.md)
 - [Self-Alignment with Instruction Backtranslation](https://arxiv.org/abs/2308.06259) `2308.06259`
-- [Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models](https://arxiv.org/abs/2312.06585) `2312.06585`
+- [Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models](https://arxiv.org/abs/2312.06585) `2312.06585` ⭐ [card](../notes/papers/rest-em.md)
 - [Recursive Synthesis for Long-Horizon Terminal Tasks](https://arxiv.org/abs/2608.05466) `2608.05466`
 
 ## P2 — from awesome-harness-engineering (ai-boost)
