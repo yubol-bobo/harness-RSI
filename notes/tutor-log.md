@@ -5,6 +5,22 @@
 
 ---
 
+## Session 1 — 2026-10-01 · What is a harness?
+
+**Your starting model:** agent = harness + LLM ✅ (the standard modern definition)
+
+**Refinements we added**
+- A bare LLM only maps text → next tokens. It can't run code, read files, remember, stop itself, or enforce safety. All of that is the harness.
+- Walking through "fix this bug": the **model decides**; the **harness** assembles context, executes tools, checks permissions, feeds back observations, compacts, loops, stops, and verifies.
+- **Same model, different harness = a different agent.** Reported: Terminal-Bench 2.0, 52.8 → 66.5 from the harness alone. "How good is the model?" really asks how good a model+harness *pair* is.
+- **The boundary moves.** Examples: "think step by step" (prompt) became reasoning trained into the weights; when to call a tool became RL-learned (ReTool). Weng: tricks get internalized; the *interface* (tools, permissions, memory store, evaluator) stays outside.
+
+**💡 Spark:** the harness is code, and LLMs write code well, so an agent can edit its own harness half. That is the doorway to harness-level RSI (HarnessDev, DGM).
+
+**Check-question to revisit:** model vs. harness vs. both for: decide to run pytest / run pytest / truncate context / refuse `rm -rf /` / remember conventions / judge "done".
+
+---
+
 ## Session 0 — 2026-10-01 · Kickoff & deep research
 
 **Goal:** Build the learning repo for the TikTok/ByteDance research-scientist interview. Hint received: "你可以多准备下 harness 和 rsi 相关的内容" (prepare more on harness and RSI).
