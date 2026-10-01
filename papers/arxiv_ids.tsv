@@ -1,0 +1,220 @@
+tier	arxiv_id	slug	section	title
+P0	2401.01335	self-play-fine-tuning-converts-weak-language-models-to-stron		Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models
+P0	2401.10020	self-rewarding-language-models		Self-Rewarding Language Models
+P0	2505.03335	absolute-zero-reinforced-self-play-reasoning-with-zero-data		Absolute Zero: Reinforced Self-play Reasoning with Zero Data
+P0	2409.11363	core-bench-fostering-the-credibility-of-published-research-t	Appendix: Some useful benchmarks	CORE-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark
+P0	2410.05080	scienceagentbench-toward-rigorous-assessment-of-language-age	Appendix: Some useful benchmarks	ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery
+P0	2410.07095	mle-bench-evaluating-machine-learning-agents-on-machine-lear	Appendix: Some useful benchmarks	MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering
+P0	2411.15114	re-bench-evaluating-frontier-ai-r-d-capabilities-of-language	Appendix: Some useful benchmarks	RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts
+P0	2502.10517	kernelbench-can-llms-write-efficient-gpu-kernels	Appendix: Some useful benchmarks	KernelBench: Can LLMs Write Efficient GPU Kernels?
+P0	2504.01848	paperbench-evaluating-ai-s-ability-to-replicate-ai-research	Appendix: Some useful benchmarks	PaperBench: Evaluating AI's Ability to Replicate AI Research
+P0	2510.04618	agentic-context-engineering-evolving-contexts-for-self-impro	Context Engineering	Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models
+P0	2601.21557	meta-context-engineering-via-agentic-skill-evolution	Context Engineering	Meta Context Engineering via Agentic Skill Evolution
+P0	2603.28052	meta-harness-end-to-end-optimization-of-model-harnesses	Context Engineering	Meta-Harness: End-to-End Optimization of Model Harnesses
+P0	2309.16797	promptbreeder-self-referential-self-improvement-via-prompt-e	Evolutionary Search	Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution
+P0	2505.22954	darwin-g-del-machine-open-ended-evolution-of-self-improving-	Evolutionary Search	Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents
+P0	2506.13131	alphaevolve-a-coding-agent-for-scientific-and-algorithmic-di	Evolutionary Search	AlphaEvolve: A coding agent for scientific and algorithmic discovery
+P0	2507.19457	gepa-reflective-prompt-evolution-can-outperform-reinforcemen	Evolutionary Search	GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning
+P0	2509.19349	shinkaevolve-towards-open-ended-and-sample-efficient-program	Evolutionary Search	ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution
+P0	2511.23473	thetaevolve-test-time-learning-on-open-problems	Evolutionary Search	ThetaEvolve: Test-time Learning on Open Problems
+P0	2603.19461	hyperagents	Evolutionary Search	Hyperagents
+P0	2605.24539	demoevolve-overcoming-sparse-feedback-in-agentic-harness-evo	Evolutionary Search	DemoEvolve: Overcoming Sparse Feedback in Agentic Harness Evolution with Demonstrations
+P0	2511.16072	early-science-acceleration-experiments-with-gpt-5	Future Challenges	Early science acceleration experiments with GPT-5
+P0	2601.03315	why-llms-aren-t-scientists-yet-lessons-from-four-autonomous-	Future Challenges	Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts
+P0	2605.09998	continual-harness-online-adaptation-for-self-improving-found	Joint Optimization with Model Weights	Continual Harness: Online Adaptation for Self-Improving Foundation Agents
+P0	2605.27276	sia-self-improving-ai-with-harness-weight-updates	Joint Optimization with Model Weights	SIA: Self Improving AI with Harness & Weight Updates
+P0	2601.16175	learning-to-discover-at-test-time	References	Learning to Discover at Test Time
+P0	2605.11328	epistemic-uncertainty-for-test-time-discovery	References	Epistemic Uncertainty for Test-Time Discovery
+P0	2310.02304	self-taught-optimizer-stop-recursively-self-improving-code-g	Self-Improving Harness	Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation
+P0	2604.25850	agentic-harness-engineering-observability-driven-automatic-e	Self-Improving Harness	Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses
+P0	2605.30621	harness-updating-is-not-harness-benefit-disentangling-evolut	Self-Improving Harness	Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents
+P0	2606.09498	self-harness-harnesses-that-improve-themselves	Self-Improving Harness	Self-Harness: Harnesses That Improve Themselves
+P0	2303.17651	self-refine-iterative-refinement-with-self-feedback	Workflow Design	Self-Refine: Iterative Refinement with Self-Feedback
+P0	2408.08435	automated-design-of-agentic-systems	Workflow Design	Automated Design of Agentic Systems
+P0	2410.10762	aflow-automating-agentic-workflow-generation	Workflow Design	AFlow: Automating Agentic Workflow Generation
+P0	2605.26340	scientistone-towards-human-level-autonomous-research-via-cha	Workflow Design	ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence
+P0	2606.25996	autodata-an-agentic-data-scientist-to-create-high-quality-sy	Workflow Design	Autodata: An agentic data scientist to create high quality synthetic data
+P1	2605.08678	mls-bench-a-holistic-and-rigorous-assessment-of-ai-systems-o	AI R&D Capability Proxies	MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI
+P1	2606.05080	autolab-can-frontier-models-solve-long-horizon-auto-research	AI R&D Capability Proxies	AutoLab: Can Frontier Models Solve Long-Horizon Auto Research and Engineering Tasks?
+P1	2412.14161	theagentcompany	Agent Capability Proxies	TheAgentCompany
+P1	2503.14499	metr-task-completion-time-horizon	Agent Capability Proxies	METR Task-Completion Time Horizon
+P1	2509.16941	swe-bench-pro	Agent Capability Proxies	SWE-Bench Pro
+P1	2509.24002	mcpmark	Agent Capability Proxies	MCPMark
+P1	2603.24621	arc-agi-3-a-new-challenge-for-frontier-agentic-intelligence	Agent Capability Proxies	ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence
+P1	2606.29537	osworld-2-0	Agent Capability Proxies	OSWorld 2.0
+P1	2607.08964	long-horizon-terminal-bench	Agent Capability Proxies	Long-Horizon-Terminal-Bench
+P1	2408.06292	the-ai-scientist-towards-fully-automated-open-ended-scientif	Automated AI R&D	The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery
+P1	2601.14525	towards-execution-grounded-automated-ai-research	Automated AI R&D	Towards Execution-Grounded Automated AI Research
+P1	2603.01712	ft-dojo-towards-autonomous-llm-fine-tuning-with-language-age	Automated AI R&D	FT-Dojo: Towards Autonomous LLM Fine-Tuning with Language Agents
+P1	2606.06473	mlevolve-a-self-evolving-framework-for-automated-machine-lea	Automated AI R&D	MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery
+P1	2607.28568	frontis-ma1-training-an-ai4ai-model-towards-recursive-self-i	Automated AI R&D	Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering
+P1	2608.17906	autoresearch-insight-in-hallucination-out	Automated AI R&D	AutoResearch: Insight In, Hallucination Out
+P1	2403.08715	sotopia-interactive-learning-of-socially-intelligent-languag	Co-Evolution	SOTOPIA-π: Interactive Learning of Socially Intelligent Language Agents
+P1	2406.14228	evoagent-towards-automatic-multi-agent-generation-via-evolut	Co-Evolution	EvoAgent: Towards Automatic Multi-Agent Generation via Evolutionary Algorithms
+P1	2505.15734	debate-train-evolve-self-evolution-of-language-model-reasoni	Co-Evolution	DEBATE, TRAIN, EVOLVE: Self Evolution of Language Model Reasoning
+P1	2511.16043	agent0-unleashing-self-evolving-agents-from-zero-data-via-to	Co-Evolution	Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning
+P1	2303.11366	reflexion-language-agents-with-verbal-reinforcement-learning	Context & Memory Evolution	Reflexion: Language Agents with Verbal Reinforcement Learning
+P1	2305.10250	memorybank-enhancing-large-language-models-with-long-term-me	Context & Memory Evolution	MemoryBank: Enhancing Large Language Models with Long-Term Memory
+P1	2308.10144	expel-llm-agents-are-experiential-learners	Context & Memory Evolution	ExpeL: LLM Agents Are Experiential Learners
+P1	2502.12110	a-mem-agentic-memory-for-llm-agents	Context & Memory Evolution	A-MEM: Agentic Memory for LLM Agents
+P1	2510.16079	evolver-self-evolving-llm-agents-through-an-experience-drive	Context & Memory Evolution	EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle
+P1	2602.07755	learning-to-continually-learn-via-meta-learning-agentic-memo	Context & Memory Evolution	Learning to Continually Learn via Meta-learning Agentic Memory Designs
+P1	2604.15097	from-procedural-skills-to-strategy-genes-towards-experience-	Context & Memory Evolution	From Procedural Skills to Strategy Genes: Towards Experience-Driven Test-Time Evolution
+P1	2603.08640	posttrainbench-can-llm-agents-automate-llm-post-training	Direct RSI & Self-Improvement Evaluations	PostTrainBench: Can LLM Agents Automate LLM Post-Training?
+P1	2607.25886	rsibench-data	Direct RSI & Self-Improvement Evaluations	RSIBench-Data
+P1	2608.23200	longwof-bench-evaluating-evomap-genes-for-verifiable-long-wo	Direct RSI & Self-Improvement Evaluations	LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks
+P1	2602.11075	rise-self-improving-robot-policy-with-compositional-world-mo	Embodied & Physical Self-Improvement	RISE: Self-Improving Robot Policy with Compositional World Model
+P1	2603.13131	mineevolve-self-evolution-with-accumulated-knowledge-for-lon	Embodied & Physical Self-Improvement	MineEvolve: Self-Evolution with Accumulated Knowledge for Long-Horizon Embodied Minecraft Agents
+P1	2606.19980	enpire-agentic-robot-policy-self-improvement-in-the-real-wor	Embodied & Physical Self-Improvement	ENPIRE: Agentic Robot Policy Self-Improvement in the Real World
+P1	2607.00272	aspire-agentic-skills-discovery-for-robotics	Embodied & Physical Self-Improvement	ASPIRE: Agentic /Skills Discovery for Robotics
+P1	2608.11350	self-evolving-embodied-agents-via-skill-harness-evolution	Embodied & Physical Self-Improvement	Self-Evolving Embodied Agents via Skill-Harness Evolution
+P1	1112.5309	powerplay-training-an-increasingly-general-problem-solver-by	Evolutionary & Open-Ended RSI	POWERPLAY: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem
+P1	1504.04909	illuminating-search-spaces-by-mapping-elites	Evolutionary & Open-Ended RSI	Illuminating Search Spaces by Mapping Elites
+P1	1606.04474	learning-to-learn-by-gradient-descent-by-gradient-descent	Evolutionary & Open-Ended RSI	Learning to Learn by Gradient Descent by Gradient Descent
+P1	1901.01753	paired-open-ended-trailblazer-poet-endlessly-generating-incr	Evolutionary & Open-Ended RSI	Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions
+P1	1905.10985	ai-gas-ai-generating-algorithms-an-alternate-paradigm-for-pr	Evolutionary & Open-Ended RSI	AI-GAs: AI-Generating Algorithms, an Alternate Paradigm for Producing General Artificial Intelligence
+P1	2003.03384	automl-zero-evolving-machine-learning-algorithms-from-scratc	Evolutionary & Open-Ended RSI	AutoML-Zero: Evolving Machine Learning Algorithms From Scratch
+P1	2601.10657	pacevolve-enabling-long-horizon-progress-aware-consistent-ev	Evolutionary & Open-Ended RSI	PACEvolve: Enabling Long-Horizon Progress-Aware Consistent Evolution
+P1	1502.06512	from-seed-ai-to-technological-singularity-via-recursively-se	Fundamentals & Getting Started	From Seed AI to Technological Singularity via Recursively Self-Improving Software
+P1	1805.06610	a-formulation-of-recursive-self-improvement-and-its-possible	Fundamentals & Getting Started	A Formulation of Recursive Self-Improvement and Its Possible Efficiency
+P1	2404.14387	a-survey-on-self-evolution-of-large-language-models	Fundamentals & Getting Started	A Survey on Self-Evolution of Large Language Models
+P1	2507.21046	a-survey-of-self-evolving-agents-on-path-to-artificial-super	Fundamentals & Getting Started	A Survey of Self-Evolving Agents: On Path to Artificial Super Intelligence
+P1	2508.07407	a-comprehensive-survey-of-self-evolving-ai-agents-a-new-para	Fundamentals & Getting Started	A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems
+P1	2602.04411	self-evolving-embodied-ai	Fundamentals & Getting Started	Self-evolving Embodied AI
+P1	2607.07663	recursive-self-improvement-in-ai-from-bounded-self-refinemen	Fundamentals & Getting Started	Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops
+P1	2607.13104	self-improvements-in-modern-agentic-systems-a-survey	Fundamentals & Getting Started	Self-Improvements in Modern Agentic Systems: A Survey
+P1	2603.03329	autoharness-improving-llm-agents-by-automatically-synthesizi	Harness & Scaffold Evolution	AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness
+P1	2605.23904	skillopt-executive-strategy-for-self-evolving-agent-skills	Harness & Scaffold Evolution	SkillOpt: Executive Strategy for Self-Evolving Agent Skills
+P1	2607.05297	metaskill-evolve-recursive-self-improvement-of-llm-agents-vi	Harness & Scaffold Evolution	MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution
+P1	2607.14159	memoharness-agent-harnesses-that-learn-from-experience	Harness & Scaffold Evolution	MemoHarness: Agent Harnesses That Learn from Experience
+P1	2608.05446	evoharness-rl-learning-self-evolving-runtime-harness-for-lon	Harness & Scaffold Evolution	EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents
+P1	2608.12307	ai4ai-at-test-time-strong-to-weak-capability-transfer-via-ha	Harness & Scaffold Evolution	AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses
+P1	2305.14325	improving-factuality-and-reasoning-in-language-models-throug	Inference-time Debate	Improving Factuality and Reasoning in Language Models through Multiagent Debate
+P1	2305.19118	encouraging-divergent-thinking-in-large-language-models-thro	Inference-time Debate	Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate
+P1	1312.6764	bounded-recursive-self-improvement	Introspection & Self-Modeling	Bounded Recursive Self-Improvement
+P1	2207.05221	language-models-mostly-know-what-they-know	Introspection & Self-Modeling	Language Models (Mostly) Know What They Know
+P1	2305.18153	do-large-language-models-know-what-they-don-t-know	Introspection & Self-Modeling	Do Large Language Models Know What They Don't Know?
+P1	2407.06946	self-recognition-in-language-models	Introspection & Self-Modeling	Self-Recognition in Language Models
+P1	2407.18219	recursive-introspection-teaching-language-model-agents-how-t	Introspection & Self-Modeling	Recursive Introspection: Teaching Language Model Agents How to Self-Improve
+P1	2410.13787	looking-inward-language-models-can-learn-about-themselves-by	Introspection & Self-Modeling	Looking Inward: Language Models Can Learn About Themselves by Introspection
+P1	2501.11120	tell-me-about-yourself-llms-are-aware-of-their-learned-behav	Introspection & Self-Modeling	Tell me about yourself: LLMs are aware of their learned behaviors
+P1	2601.01828	emergent-introspective-awareness-in-large-language-models	Introspection & Self-Modeling	Emergent Introspective Awareness in Large Language Models
+P1	2602.02416	structure-enables-effective-self-localization-of-errors-in-l	Introspection & Self-Modeling	Structure Enables Effective Self-Localization of Errors in LLMs
+P1	2607.04277	self-reference-in-large-language-models-the-introspection-th	Introspection & Self-Modeling	Self-Reference in Large Language Models: The Introspection Threshold for Recursive Self-Improvement
+P1	2304.05128	teaching-large-language-models-to-self-debug	Iterative Repair & Training	Teaching Large Language Models to Self-Debug
+P1	2312.13010	agentcoder-multi-agent-based-code-generation-with-iterative-	Iterative Repair & Training	AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation
+P1	2412.21139	training-software-engineering-agents-and-verifiers-with-swe-	Iterative Repair & Training	Training Software Engineering Agents and Verifiers with SWE-Gym
+P1	2309.03409	large-language-models-as-optimizers	Prompt & Program Optimization	Large Language Models as Optimizers
+P1	2310.03714	dspy-compiling-declarative-language-model-calls-into-self-im	Prompt & Program Optimization	DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines
+P1	2310.04406	language-agent-tree-search-unifies-reasoning-acting-and-plan	Prompt & Program Optimization	Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models
+P1	2406.07496	textgrad-automatic-differentiation-via-text	Prompt & Program Optimization	TextGrad: Automatic "Differentiation" via Text
+P1	1605.03142	self-modification-of-policy-and-utility-function-in-rational	Safety, Alignment & Theory	Self-Modification of Policy and Utility Function in Rational Agents
+P1	1811.07871	scalable-agent-alignment-via-reward-modeling-a-research-dire	Safety, Alignment & Theory	Scalable Agent Alignment via Reward Modeling: A Research Direction
+P1	2007.05411	agi-agent-safety-by-iteratively-improving-the-utility-functi	Safety, Alignment & Theory	AGI Agent Safety by Iteratively Improving the Utility Function
+P1	2011.06275	performance-of-bounded-rational-agents-with-the-ability-to-s	Safety, Alignment & Theory	Performance of Bounded-Rational Agents With the Ability to Self-Modify
+P1	2505.02709	evaluating-goal-drift-in-language-model-agents	Safety, Alignment & Theory	Evaluating Goal Drift in Language Model Agents
+P1	2509.26354	your-agent-may-misevolve-emergent-risks-in-self-evolving-llm	Safety, Alignment & Theory	Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents
+P1	2510.16657	escaping-model-collapse-via-synthetic-data-verification-near	Safety, Alignment & Theory	Escaping Model Collapse via Synthetic Data Verification: Near-term Improvements and Long-term Convergence
+P1	2602.06911	tamperbench-systematically-stress-testing-llm-safety-under-f	Safety, Alignment & Theory	TamperBench: Systematically Stress-Testing LLM Safety Under Fine-Tuning and Tampering
+P1	2603.06333	sahoo-safeguarded-alignment-for-high-order-optimization-obje	Safety, Alignment & Theory	SAHOO: Safeguarded Alignment for High-Order Optimization Objectives in Recursive Self-Improvement
+P1	2305.16291	voyager-an-open-ended-embodied-agent-with-large-language-mod	Self-Evolving Agent Frameworks	Voyager: An Open-Ended Embodied Agent with Large Language Models
+P1	2402.17574	agent-pro-learning-to-evolve-via-policy-level-reflection-and	Self-Evolving Agent Frameworks	Agent-Pro: Learning to Evolve via Policy-Level Reflection and Optimization
+P1	2409.00872	self-evolving-agents-with-reflective-and-memory-augmented-ab	Self-Evolving Agent Frameworks	Self-evolving Agents with Reflective and Memory-Augmented Abilities
+P1	2410.04444	g-del-agent-a-self-referential-agent-framework-for-recursive	Self-Evolving Agent Frameworks	Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement
+P1	2507.03616	evoagentx-an-automated-framework-for-evolving-agentic-workfl	Self-Evolving Agent Frameworks	EvoAgentX: An Automated Framework for Evolving Agentic Workflows
+P1	2510.23601	alita-g-self-evolving-generative-agent-for-agent-generation	Self-Evolving Agent Frameworks	Alita-G: Self-Evolving Generative Agent for Agent Generation
+P1	2512.18746	memevolve-meta-evolution-of-agent-memory-systems	Self-Evolving Agent Frameworks	MemEvolve: Meta-Evolution of Agent Memory Systems
+P1	2603.18000	agentfactory-a-self-evolving-framework-through-executable-su	Self-Evolving Agent Frameworks	AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse
+P1	2604.20133	evoagent-an-evolvable-agent-framework-with-skill-learning-an	Self-Evolving Agent Frameworks	EvoAgent: An Evolvable Agent Framework with Skill Learning and Multi-Agent Delegation
+P1	2607.26784	skillrise-agentic-reinforcement-learning-for-cross-task-skil	Self-Evolving Agent Frameworks	SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution
+P1	2504.15228	a-self-improving-coding-agent	Self-Modifying Coding Agents	A Self-Improving Coding Agent
+P1	2310.00533	self-self-evolution-with-language-feedback	Self-Play & Iterative Fine-tuning	SELF: Self-Evolution with Language Feedback
+P1	2405.00675	self-play-preference-optimization-for-language-model-alignme	Self-Play & Iterative Fine-tuning	Self-Play Preference Optimization for Language Model Alignment
+P1	2407.19594	meta-rewarding-language-models-self-improving-alignment-with	Self-Play & Iterative Fine-tuning	Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge
+P1	2412.01951	self-improvement-in-language-models-the-sharpening-mechanism	Self-Play & Iterative Fine-tuning	Self-Improvement in Language Models: The Sharpening Mechanism
+P1	2506.10943	self-adapting-language-models	Self-Play & Iterative Fine-tuning	Self-Adapting Language Models
+P1	2603.18620	learning-to-self-evolve	Self-Play & Iterative Fine-tuning	Learning to Self-Evolve
+P1	2604.19295	tempo-scaling-test-time-training-for-large-reasoning-models	Self-Play & Iterative Fine-tuning	TEMPO: Scaling Test-time Training for Large Reasoning Models
+P1	2607.21971	teaching-llms-to-self-evolve-cultivating-core-meta-skills-wi	Self-Play & Iterative Fine-tuning	Teaching LLMs to Self-Evolve: Cultivating Core Meta-Skills with Reinforcement Learning
+P1	2607.26873	serpo-self-evolving-rubric-policy-optimization-for-open-ende	Self-Play & Iterative Fine-tuning	SERPO: Self-Evolving Rubric Policy Optimization for Open-Ended Test-Time Reinforcement Learning
+P1	2203.14465	star-bootstrapping-reasoning-with-reasoning	Self-Taught Reasoning	STaR: Bootstrapping Reasoning With Reasoning
+P1	2403.09629	quiet-star-language-models-can-teach-themselves-to-think-bef	Self-Taught Reasoning	Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking
+P1	2501.04519	rstar-math-small-llms-can-master-math-reasoning-with-self-ev	Self-Taught Reasoning	rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking
+P1	2309.00267	rlaif-vs-rlhf-scaling-reinforcement-learning-from-human-feed	Self-Training & Self-Reward	RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback
+P1	2605.03871	evolm-self-evolving-language-models-through-co-evolved-discr	Self-Training & Self-Reward	EvoLM: Self-Evolving Language Models through Co-Evolved Discriminative Rubrics
+P1	2203.11171	self-consistency-improves-chain-of-thought-reasoning-in-lang	Self-Verification & Self-Correction — Enabling Foundations	Self-Consistency Improves Chain of Thought Reasoning in Language Models
+P1	2305.11738	critic-large-language-models-can-self-correct-with-tool-inte	Self-Verification & Self-Correction — Enabling Foundations	CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing
+P1	2305.20050	let-s-verify-step-by-step	Self-Verification & Self-Correction — Enabling Foundations	Let's Verify Step by Step
+P1	2309.11495	chain-of-verification-reduces-hallucination-in-large-languag	Self-Verification & Self-Correction — Enabling Foundations	Chain-of-Verification Reduces Hallucination in Large Language Models
+P1	2310.01798	large-language-models-cannot-self-correct-reasoning-yet	Self-Verification & Self-Correction — Enabling Foundations	Large Language Models Cannot Self-Correct Reasoning Yet
+P1	1606.06565	concrete-problems-in-ai-safety	Supporting Safety Foundations	Concrete Problems in AI Safety
+P1	1906.01820	risks-from-learned-optimization-in-advanced-machine-learning	Supporting Safety Foundations	Risks from Learned Optimization in Advanced Machine Learning Systems
+P1	1908.04734	reward-tampering-problems-and-solutions-in-reinforcement-lea	Supporting Safety Foundations	Reward Tampering Problems and Solutions in Reinforcement Learning: A Causal Influence Diagram Perspective
+P1	1912.01683	optimal-policies-tend-to-seek-power	Supporting Safety Foundations	Optimal Policies Tend to Seek Power
+P1	2212.08073	constitutional-ai-harmlessness-from-ai-feedback	Supporting Safety Foundations	Constitutional AI: Harmlessness from AI Feedback
+P1	2305.15324	model-evaluation-for-extreme-risks	Supporting Safety Foundations	Model Evaluation for Extreme Risks
+P1	2401.05566	sleeper-agents-training-deceptive-llms-that-persist-through-	Supporting Safety Foundations	Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training
+P1	2406.07358	ai-sandbagging-language-models-can-strategically-underperfor	Supporting Safety Foundations	AI Sandbagging: Language Models can Strategically Underperform on Evaluations
+P1	2210.11610	large-language-models-can-self-improve	Synthetic Data & Self-Distillation	Large Language Models Can Self-Improve
+P1	2212.10560	self-instruct-aligning-language-models-with-self-generated-i	Synthetic Data & Self-Distillation	Self-Instruct: Aligning Language Models with Self-Generated Instructions
+P1	2308.06259	self-alignment-with-instruction-backtranslation	Synthetic Data & Self-Distillation	Self-Alignment with Instruction Backtranslation
+P1	2312.06585	beyond-human-data-scaling-self-training-for-problem-solving-	Synthetic Data & Self-Distillation	Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
+P1	2608.05466	recursive-synthesis-for-long-horizon-terminal-tasks	Synthetic Data & Self-Distillation	Recursive Synthesis for Long-Horizon Terminal Tasks
+P2	2210.03629	react-synergizing-reasoning-and-acting-in-language-models	Agent Loop	ReAct: Synergizing Reasoning and Acting in Language Models
+P2	2601.13206	real-time-deadlines-reveal-temporal-awareness-failures-in-ll	Agent Loop	Real-Time Deadlines Reveal Temporal Awareness Failures in LLM Strategic Reasoning
+P2	2603.01209	agents-learn-their-runtime-interpreter-persistence-as-traini	Agent Loop	Agents Learn Their Runtime: Interpreter Persistence as Training-Time Semantics
+P2	2604.11378	a-scheduler-theoretic-framework-for-llm-agent-execution	Agent Loop	A Scheduler-Theoretic Framework for LLM Agent Execution
+P2	2604.14228	the-design-space-of-today-s-and-future-ai-agent-systems	Agent Loop	The Design Space of Today's and Future AI Agent Systems
+P2	2601.07190	active-context-compression-autonomous-memory-management-in-l	Context Delivery & Compaction	Active Context Compression: Autonomous Memory Management in LLM Agents
+P2	2602.03442	a-rag-scaling-agentic-retrieval-augmented-generation-via-hie	Context Delivery & Compaction	A-RAG: Scaling Agentic Retrieval-Augmented Generation via Hierarchical Retrieval Interfaces
+P2	2603.27355	llm-readiness-harness-evaluation-observability-and-ci-gates-	Context Delivery & Compaction	LLM Readiness Harness: Evaluation, Observability, and CI Gates for LLM/RAG Applications
+P2	2604.01599	byterover-agent-native-memory-through-llm-curated-hierarchic	Context Delivery & Compaction	ByteRover: Agent-Native Memory Through LLM-Curated Hierarchical Context
+P2	2605.15315	context-pruning-for-coding-agents-via-multi-rubric-latent-re	Context Delivery & Compaction	Context Pruning for Coding Agents via Multi-Rubric Latent Reasoning
+P2	2509.25370	where-llm-agents-fail-and-how-they-can-learn-from-failures-a	Debugging & Developer Experience	Where LLM Agents Fail and How They Can Learn From Failures (AgentDebug)
+P2	2602.06593	agentstepper-interactive-debugging-of-software-development-a	Debugging & Developer Experience	AgentStepper: Interactive Debugging of Software Development Agents
+P2	2602.06875	tracecoder-a-trace-driven-multi-agent-framework-for-automate	Debugging & Developer Experience	TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging of LLM-Generated Code
+P2	2603.06847	characterizing-faults-in-agentic-ai	Debugging & Developer Experience	Characterizing Faults in Agentic AI
+P2	2603.14688	agenttrace-causal-graph-tracing-for-root-cause-analysis-in-m	Debugging & Developer Experience	AgentTrace: Causal Graph Tracing for Root Cause Analysis in Multi-Agent Systems
+P2	2602.16666	towards-a-science-of-ai-agent-reliability	Evals & Verification	Towards a Science of AI Agent Reliability
+P2	2602.22480	vero-an-evaluation-harness-for-agents-to-optimize-agents	Evals & Verification	VeRO: An Evaluation Harness for Agents to Optimize Agents
+P2	2604.10866	occubench-evaluating-ai-agents-on-real-world-professional-ta	Evals & Verification	OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language World Models
+P2	2605.12925	agentlens-revealing-the-lucky-pass-problem-in-swe-agent-eval	Evals & Verification	AgentLens: Revealing The Lucky Pass Problem in SWE-Agent Evaluation
+P2	2605.27922	harness-bench-measuring-harness-effects-across-models-in-rea	Evals & Verification	Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows
+P2	2606.19613	staminabench-stress-testing-coding-agents-over-100-interacti	Evals & Verification	StaminaBench: Stress-Testing Coding Agents over 100 Interaction Turns
+P2	2603.05344	building-ai-coding-agents-for-the-terminal-scaffolding-harne	Foundations	Building AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned
+P2	2603.25723	natural-language-agent-harnesses	Foundations	Natural-Language Agent Harnesses
+P2	2604.18071	architectural-design-decisions-in-ai-agent-harnesses	Foundations	Architectural Design Decisions in AI Agent Harnesses
+P2	2605.18747	code-as-agent-harness	Foundations	Code as Agent Harness
+P2	2606.10106	what-makes-a-harness-a-harness-necessary-and-sufficient-cond	Foundations	What makes a harness a harness: necessary and sufficient conditions for an agent harness
+P2	2608.02276	harness-r1-learning-to-edit-executable-runtime-harnesses-fro	Generators & Meta-Harnesses	Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories
+P2	2608.07545	darwinx	Generators & Meta-Harnesses	DarwinX
+P2	2604.09408	hil-bench-do-agents-know-when-to-ask-for-help	Human-in-the-Loop	HiL-Bench: Do Agents Know When to Ask for Help?
+P2	2601.03236	magma-multi-graph-agentic-memory-architecture	Memory & State	MAGMA: Multi-Graph Agentic Memory Architecture
+P2	2601.22352	recoverability-has-a-law-the-err-measure-for-tool-augmented-	Memory & State	Recoverability Has a Law: The ERR Measure for Tool-Augmented Agents
+P2	2602.20478	codified-context-infrastructure-for-ai-agents-in-a-complex-c	Memory & State	Codified Context: Infrastructure for AI Agents in a Complex Codebase
+P2	2603.17244	graph-native-cognitive-memory-for-ai-agents-formal-belief-re	Memory & State	Graph-Native Cognitive Memory for AI Agents: Formal Belief Revision Semantics for Versioned Memory Architectures
+P2	2603.17781	facts-as-first-class-objects-knowledge-objects-for-persisten	Memory & State	Facts as First Class Objects: Knowledge Objects for Persistent LLM Memory
+P2	2603.18330	memarchitect-a-policy-driven-memory-governance-layer	Memory & State	MemArchitect: A Policy-Driven Memory Governance Layer
+P2	2603.27910	gaama-graph-augmented-associative-memory-for-agents	Memory & State	GAAMA: Graph Augmented Associative Memory for Agents
+P2	2604.10352	clawvm-harness-managed-virtual-memory-for-stateful-tool-usin	Memory & State	ClawVM: Harness-Managed Virtual Memory for Stateful Tool-Using LLM Agents
+P2	2606.06090	mage-memory-as-agent-guided-exploration	Memory & State	MAGE: Memory as Agent-Guided Exploration
+P2	2601.18491	agentdog-a-diagnostic-guardrail-framework-for-ai-agent-safet	Permissions & Authorization	AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security
+P2	2603.20953	open-agent-passport-oap-deterministic-pre-action-authorizati	Permissions & Authorization	Open Agent Passport (OAP): Deterministic Pre-Action Authorization for Autonomous AI Agents
+P2	2608.23550	when-do-not-is-not-deny-security-rules-in-claude-md-vs-built	Permissions & Authorization	When "Do Not" Is Not Deny: Security Rules in CLAUDE.md vs Built-In Controls
+P2	2608.27443	do-user-authored-permission-policies-improve-protection-agai	Permissions & Authorization	Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?
+P2	2503.09572	plan-and-act-improving-planning-of-agents-for-long-horizon-t	Planning & Task Decomposition	Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks
+P2	2601.07577	task-decoupled-planning-for-long-horizon-agents-tdp	Planning & Task Decomposition	Task-Decoupled Planning for Long-Horizon Agents (TDP)
+P2	2602.01465	agyn-a-multi-agent-system-for-team-based-autonomous-software	Planning & Task Decomposition	Agyn: A Multi-Agent System for Team-Based Autonomous Software Engineering
+P2	2602.16873	task-adaptive-multi-agent-orchestration-adaptorch	Planning & Task Decomposition	Task-Adaptive Multi-Agent Orchestration (AdaptOrch)
+P2	2602.09345	agentcgroup-understanding-and-controlling-os-resources-of-ai	Production Infrastructure & Operations	AgentCgroup: Understanding and Controlling OS Resources of AI Agents
+P2	2603.11088	the-attack-and-defense-landscape-of-agentic-ai-a-comprehensi	Security, Sandbox & Permissions	The Attack and Defense Landscape of Agentic AI: A Comprehensive Survey
+P2	2605.27488	grimlock-guarding-high-agency-systems-with-ebpf-and-attested	Security, Sandbox & Permissions	Grimlock: Guarding High-Agency Systems with eBPF and Attested Channels
+P2	2606.04781	aip-a-graph-representation-for-learning-and-governing-agent-	Skills & MCP	AIP: A Graph Representation for Learning and Governing Agent Skills
+P2	2602.07359	scaling-parallel-tool-calling-for-efficient-deep-research	Tool Design	Scaling Parallel Tool Calling for Efficient Deep Research
+P2	2603.01714	topocurate-modeling-interaction-topology-for-tool-use-agent-	Tool Design	TopoCurate: Modeling Interaction Topology for Tool-Use Agent Training
+P2	2603.13417	design-patterns-for-deploying-ai-agents-with-model-context-p	Tool Design	Design Patterns for Deploying AI Agents with Model Context Protocol
+P2	2603.28815	skilltester-benchmarking-utility-and-security-of-agent-skill	Tool Design	SkillTester: Benchmarking Utility and Security of Agent Skills
+P2	2604.07927	eigentsearch-q	Tool Design	EigentSearch-Q+
+P2	2602.17753	the-2025-ai-agent-index-documenting-technical-and-safety-fea	Verification & CI Integration	The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems
+P2	2603.02601	agentassay-token-efficient-regression-testing-for-non-determ	Verification & CI Integration	AgentAssay: Token-Efficient Regression Testing for Non-Deterministic Agent Workflows
+P2	2603.20075	agentic-harness-for-real-world-compilers-a-case-study-in-spe	Verification & CI Integration	Agentic Harness for Real-World Compilers: A Case Study in Specialized Tool Design
